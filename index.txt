@@ -1,0 +1,21 @@
+OBJECT ORIENTED PROGRAMMING:
+----------------------------
+# uses objects rather than functions
+# is object oriented rather than procedural
+# is made of:
+            -> encapsulation
+            -> abstraction
+            -> inheritance
+            -> polymorphism
+
+(*) Encapsulation:
+    -> Using related properties and methods in an object
+
+(*) Abstraction:
+    -> Only showing essential methods and hiding the details
+
+(*) Inheritance:
+    -> Using functionality from another method therefore reducing redundancy of code
+
+(*) Polymorphism:
+    -> Refactoring ugly if/else or switch/case statements
