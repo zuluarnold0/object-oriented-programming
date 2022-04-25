@@ -36,6 +36,10 @@ for (item in user) {
 const keys = Object.keys(user)
 // console.log(keys)
 
+/** FINDING VALUES USING A METHOD */
+const values = Object.values(user)
+// console.log(values)
+
 /** GETTING PROPERTIES WITH A PARTICULAR TYPE */
 for (item in user) {
   if (typeof user[item] === 'number') {
@@ -45,5 +49,5 @@ for (item in user) {
 
 /** CHECKING IF A PROPERTY IS IN AN OBJECT */
 if ('age' in user) {
-  console.log('found age')
+  // console.log('found age')
 }

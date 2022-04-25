@@ -10,11 +10,11 @@ class UserClass {
     this.id = id
     this.name = name
     this.surname = surname
-    this.getFullName = function () {
-      return this.name + ' ' + this.surname
-    }
+  }
+  getFullName() {
+    return this.name + ' ' + this.surname
   }
 }
 
-const createdUserClass = new UserClass(19, 'star', 'starborn')
+const createdUserClass = new UserClass(19, 'star', 'starborn starner')
 console.log('User Class --> ', createdUserClass.getFullName())
