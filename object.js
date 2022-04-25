@@ -14,4 +14,12 @@ const user = {
 // console.log('id: ', user.id)
 // console.log('name: ', user.name)
 // console.log('surname: ', user.surname)
-console.log('Full Name: ', user.getFullName())
+// console.log('Full Name: ', user.getFullName())
+
+/** Adding properties */
+user.age = 3 //or user['age'] = 3
+// console.log(user)
+
+/** Deleting properties */
+delete user.surname // or delete user['surname']
+// console.log(user)
